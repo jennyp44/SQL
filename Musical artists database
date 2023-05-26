@@ -1,0 +1,26 @@
+CREATE TABLE Musical_artists (id INTEGER PRIMARY KEY,name TEXT,Country TEXT, Albums INTEGER, Genre TEXT);
+
+Insert into Musical_artists values (1, 'Bad Bunny', 'Puerto Rico', 6, 'Latin Urbano');
+INSERT into Musical_artists values (2, 'Karol G', 'Colombia', 4, 'Latin Urbano');
+INSERT into Musical_artists values (3, 'Jhay cortez', 'Puerto Rico', 4, 'Latin Urbano');
+INSERT into musical_artists values (4, 'Rauw Alejandro', 'Puerto Rico', 5, 'Latin urbano');
+INSERT into Musical_artists values (5, 'Kali Uchis', 'United States', 5, 'R&B soul');
+INSERT into Musical_artists values (6, 'Feid', 'Colombia', 8, 'Latin Urbano');
+INSERT into Musical_artists values (7,'Quevedo', 'Spain',1, 'Latin Urbano');
+INSERT into Musical_artists values (8, 'Jhene Aiko', 'United States', 7, 'R&B soul');
+INSERT into Musical_artists values (9, 'Burna Boy', 'Nigeria', 7, 'Afrobeats');
+INSERT into Musical_artists values (10, 'Lana del Rey', 'United States', 9, 'Indie pop');
+INSERT into Musical_artists values (11, 'Shakira', 'Colombia', 16, 'pop');
+INSERT into Musical_artists values (12, 'Brent Faiyaz', 'United States', 3, 'R&B soul');
+INSERT into Musical_artists values (13, 'The Weekend', 'Canada', 12, 'R&B soul');
+INSERT into Musical_artists values (14, 'Drake', 'Canada', 14,'rap');
+INSERT into Musical_artists values (15, 'Peso Pluma', 'Mexico', 3, 'Regional Mexican music');
+
+SELECT albums FROM Musical_artists
+ORDER by albums asc;
+
+Select Country from Musical_artists
+Name GROUP by country;
+
+
+
